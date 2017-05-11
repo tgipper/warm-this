@@ -27,11 +27,11 @@ body {
 	text-decoration: none;
 	letter-spacing: 1px;
 	border-right: 5px solid #dcd09e;
-	width: 30%;
+	width: 22%;
 	height: 100%;
 	float: left;
 	text-align: left;
-	position: fixed;
+	position: absolute;
 	overflow: auto;
 	background-color: #47455c;
 	display: inline-block;
@@ -52,10 +52,16 @@ body {
 	border: 5px solid red;
 }
 
+ul {
+	padding: 0rem 1rem;
+}
+
 li {
 	margin: 3px;
 	display: block;
-	height: 2.5rem;
-	text-align: left;
-	border: 2px solid #dcd09e;	
+	height: 3rem;
+	text-align: center;
+	border-bottom: 2px solid #dcd09e;
+	width: 100%;
+	font-weight: 600;
 }
