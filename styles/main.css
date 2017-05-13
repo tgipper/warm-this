@@ -12,14 +12,14 @@ body {
 }
 
 .hero-content {
-	background-image: url(../assets/images/cover-image-crop.jpg);
+    background-image: url(../assets/images/cover-image-crop.jpg);
 	position: relative;
     min-height: 500px;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: top center;
+    background-size: contain;
 	padding: 0px;
-	margin: 0px
+	margin: 0px;
 }
 
 .navbar {
