@@ -59,3 +59,13 @@ li {
 	text-align: left;
 	border: 2px solid #dcd09e;	
 }
+
+a:link {
+	color: #dcd09e;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #dcd09e;
+	text-decoration: none;
+}
