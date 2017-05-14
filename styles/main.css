@@ -27,18 +27,14 @@ body {
 	text-decoration: none;
 	letter-spacing: 1px;
 	border-right: 5px solid #dcd09e;
-	width: 30%;
+	width: 29%;
 	height: 100%;
 	float: left;
 	text-align: left;
-	position: fixed;
+	position: relative;
 	overflow: auto;
 	background-color: #47455c;
 	display: inline-block;
-}
-
-.navbar .navbar-list {
-	list-style-type: none;
 }
 
 .opening-video {
@@ -52,12 +48,11 @@ body {
 	border: 5px solid red;
 }
 
-li {
-	margin: 3px;
-	display: block;
-	height: 2.5rem;
-	text-align: left;
-	border: 2px solid #dcd09e;	
+td {
+	text-align: center;
+	vertical-align: center;
+	border-bottom: 2px solid red;
+	height: 50px;
 }
 
 a:link {
@@ -68,4 +63,9 @@ a:link {
 a:visited {
 	color: #dcd09e;
 	text-decoration: none;
+}
+
+
+table.navbar-list {
+	width: 100%;
 }
