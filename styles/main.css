@@ -20,7 +20,7 @@ body {
 }
 
 .hero-content {
-    background-image: url(../assets/images/cover-image-crop.jpg);
+    background-image: url(../assets/images/cover-image-crop-2.jpg);
 	position: relative;
     background-repeat: no-repeat;
     background-position: top center;
@@ -65,6 +65,10 @@ td {
 	vertical-align: center;
 	border-bottom: 2px solid #dcd09e;
 	height: 50px;
+}
+
+table a {
+    display: block;
 }
 
 a:link {
