@@ -1,9 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
 body.landing {
 	background-color: #37354c;
+/*
+	background-image: url(../assets/images/Blue-textured-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+*/
 }
 
 body {
-	box-sizing: border-box;
     font-family: 'Times New Roman';
     color: #dcd09e;
     min-height: 100%;
@@ -14,20 +22,19 @@ body {
 .hero-content {
     background-image: url(../assets/images/cover-image-crop.jpg);
 	position: relative;
-    min-height: 500px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: contain;
-	padding: 0px;
+    background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	margin: 0px;
 }
-
 .navbar {
 	font-size: 1.3rem;
 	text-decoration: none;
 	letter-spacing: 1px;
 	border-right: 5px solid #dcd09e;
-	width: 29%;
+	width: 30%;
 	height: 100%;
 	float: left;
 	text-align: left;
@@ -47,17 +54,26 @@ body {
 	padding: 200px 0px;
 	border: 5px solid red;
 }
+.opening-video iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 td {
 	text-align: center;
 	vertical-align: center;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #dcd09e;
 	height: 50px;
 }
 
 a:link {
 	color: #dcd09e;
 	text-decoration: none;
+}
+
+a:hover {
+	background-color: #47455c;
 }
 
 a:visited {
