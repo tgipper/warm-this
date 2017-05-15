@@ -20,7 +20,7 @@ body {
 }
 
 .hero-content {
-    background-image: url(../assets/images/cover-image-crop.jpg);
+    background-image: url(../images/cover-image-crop.jpg);
 	position: relative;
     background-repeat: no-repeat;
     background-position: top center;
